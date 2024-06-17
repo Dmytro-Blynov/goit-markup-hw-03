@@ -31,6 +31,8 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  align-items: center;
+  margin-right: 76px;
 }
 
 .nav-link:hover,
@@ -48,6 +50,7 @@ a {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .address-link {
@@ -176,4 +179,30 @@ ul ol {
 
 img {
   display: block;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+  display: flex;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-content {
+  display: flex;
+  gap: 40px;
+}
+
+.address-content {
+  display: flex;
+  gap: 40px;
 }

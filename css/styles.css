@@ -157,6 +157,7 @@ h3 {
 footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -167,6 +168,8 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-span {
@@ -286,4 +289,5 @@ img {
 }
 
 .desc .subject {
+  margin-bottom: 8px;
 }
